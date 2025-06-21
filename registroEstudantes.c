@@ -1,58 +1,10 @@
-/*/*Objetivo:
- Desenvolver um sistema de registro de estudantes em C, utilizando TADs, Listas, Pilhas, Filas e
- Deques para gerenciar informações dos estudantes.
- Funcionalidades:
- 1. Definição do TAD Estudante:
- Criar um TAD para representar as informações de um estudante, como nome, número
- de matrícula, notas, etc.
- 2. Listas:
- Utilizar listas encadeadas para armazenar informações dos estudantes.
- Permitir adição, remoção e busca de estudantes na lista.
- 3. Pilhas:
- Implementar uma pilha para armazenar históricos de notas de um estudante.
- Ao atualizar as notas, empilhar o histórico anterior.
- 4. Filas:
- Utilizar uma fila para simular uma fila de espera de estudantes para matrícula em
- disciplinas.
- Adicionar estudantes à fila e remover quando matriculados.
- 5. Deques:
- Utilizar um deque para gerenciar uma lista de espera para atendimento.
- Adicionar estudantes no início ou final da fila de espera.
- 6. Funções adicionais:
- Implementar funções para calcular médias de notas de um estudante ou percorrer
- estruturas de dados.
- Exemplo de Estrutura do TAD:
- typedef struct { 
-char nome[50]; 
-int matricula; 
-float notas[3];  // Supondo 3 notas por estudante 
-} Estudante;
- Fluxo Geral do Programa:
- 1. Inicialização:
-Criar uma lista de estudantes vazia, uma pilha para históricos de notas, uma fila para
- matrículas e um deque para atendimentos.
- 2. Adição de Estudantes:
- Permitir ao usuário adicionar novos estudantes à lista.
- 3. Atualização de Notas:
- Ao atualizar as notas de um estudante, empilhar o histórico anterior, por disciplina.
- 4. Matrícula em Disciplinas:
- Adicionar estudantes a uma fila de espera para matrícula em disciplinas.
- Remover estudantes da fila quando matriculados.
- 5. Atendimento:
- Utilizar um deque para gerenciar uma lista de espera para atendimento.
- Adicionar estudantes no início ou final da fila de espera.
- 6. Funções:
- Implementar funções para calcular médias de notas ou realizar operações específicas
- nos dados dos estudantes.
- Observações:
- Este projeto oferece uma abordagem prática para manipulação de dados de estudantes
- usando várias estruturas de dados.
- Explorem a eficiência das operações de inserção, remoção e busca em listas e deques,
- considerando os contextos específicos.
- Caso seja interessante, acrescentem uma opção para salvar os dados dos alunos, disciplinas
- e notas em arquivos.
- Experimentem as diferentes estruturas de dados e a implementem suas próprias funções
- recursivas ou não para aprofundar a compreensão dos conceitos.*/
+ /* 
+**  Função :    to-do list tarefas
+**  Autor : Matheus Lira Lisboa
+**  Data  : 14/06/2025
+**  Observações:  
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
